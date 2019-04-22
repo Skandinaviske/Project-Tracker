@@ -1,0 +1,4 @@
+#Tue Apr 16 14:47:01 EDT 2019
+base.0=E\:\\Esl\\Che_Liang\\Project Tracker\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

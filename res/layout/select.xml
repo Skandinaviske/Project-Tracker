@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll"
+    android:background="@color/White">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project Name" />
+
+        <EditText
+            android:id="@+id/ProjectName"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip"
+            android:singleLine="true"
+            android:hint="Input..."
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Title"
+            />
+
+        <EditText
+            android:id="@+id/CourseTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip"
+            android:singleLine="true"
+            android:hint="Input..."
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Number" />
+
+        <EditText
+            android:id="@+id/CourseNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:hint="Input..."
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructor Name"
+            />
+
+        <EditText
+            android:id="@+id/InstructorName"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:hint="Input..."
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Project Number"
+            />
+
+        <EditText
+            android:id="@+id/ProjectNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:hint="Input..."
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Due Date" />
+
+        <EditText
+            android:id="@+id/Duedata"
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:hint="YYYY-MM-DD HH:MM"
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip"
+            android:inputType="datetime"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Project Description"
+            />
+
+        <EditText
+            android:id="@+id/projectDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:hint="Input..."
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA"
+            android:textSize="15dip" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Completed" />
+
+            <RadioButton
+                android:id="@+id/n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Uncompleted" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/s_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/Qing"
+            android:text="SAVE" />
+
+        <Button
+            android:id="@+id/s_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/Qing"
+            android:text="DELETE" />
+
+        <Button
+            android:id="@+id/s_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/Qing"
+            android:text="BACK" />
+    </LinearLayout>
+</RelativeLayout>
