@@ -39,4 +39,4 @@ The user of our application could be able to:
 
 # Author
 
-Ailwyn
+Carl and Ailwyn
