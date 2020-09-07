@@ -85,8 +85,6 @@ public class Util {
     }
     //delete the file in the amazon cloud//
     public boolean deleteFileFromS3Bucket(String fileUrl,Context context) {
-
-
         sS3Client=getS3Client(context);
         String fileName = fileUrl.substring(fileUrl.lastIndexOf("/") + 1);
 
