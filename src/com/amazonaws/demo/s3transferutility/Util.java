@@ -32,9 +32,6 @@ import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.DeleteObjectRequest;
 import com.amazonaws.services.s3.model.DeleteObjectsRequest;
 
-
-
-
 import org.json.JSONException;
 
 import java.io.File;
